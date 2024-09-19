@@ -20,4 +20,6 @@ public class InvoiceController {
         return invoiceService.generateInvoice(id);
     }
 
+
+
 }

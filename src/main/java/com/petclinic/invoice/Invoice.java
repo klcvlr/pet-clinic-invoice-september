@@ -10,6 +10,11 @@ public class Invoice {
     @JsonProperty("purpose")
     private String visitPurpose;
 
+    public Invoice(LocalDate visitDate, String visitPurpose) {
+        this.visitDate = visitDate;
+        this.visitPurpose = visitPurpose;
+    }
+
     public LocalDate getVisitDate() {
         return visitDate;
     }
